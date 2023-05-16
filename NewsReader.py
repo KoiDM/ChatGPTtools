@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 from googletrans import Translator   #pip install googletrans==4.0.0rc1
 from datetime import date
 
+#update with your api keys
 api_key ='Your OPENAI API key'   #https://platform.openai.com/account/api-keys
 news_api_key = 'Your NEWS API key'  #https://newsapi.org/
 
