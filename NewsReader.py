@@ -36,8 +36,7 @@ def ask_GPT(task):
     return response_text 
 
 
-#get headline news
-
+#get headline news from NewsAPI
 url = (
     'https://newsapi.org/v2/top-headlines?'
        'country=us&'
